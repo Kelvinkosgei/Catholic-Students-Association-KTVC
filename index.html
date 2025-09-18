@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catholic Students Association (KTVC)</title>
+   <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/KTVC_CSA_logo-removebg-preview.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Splash Screen -->
+<div id="splash-screen">
+  <img src="images/KTVC_CSA_logo-removebg-preview (1).png" alt="CSA Logo">
+  <h2>Catholic Students Association (KTVC)</h2>
+</div>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-content">
+         <img src="images/KTVC_CSA_logo-removebg-preview (1).png" alt="CSA Logo" class="logo">
+      <h1>Catholic Students Association (KTVC)</h1>
+      <p>Faith • Unity • Service</p>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="register.html">Join Us</a>
+        <a href="dashboard.html">Dashboard</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <main class="home-content">
+    <section id="about">
+      <h2>🙏 About Us</h2>
+      <p>
+        The Catholic Students Association (KTVC) is a community of faith-driven students 
+        committed to spiritual growth, service, and fellowship. Our mission is to 
+        provide a welcoming environment where students can strengthen their 
+        relationship with God, support one another, and positively impact our campus.
+      </p>
+      <p><strong>Mission:</strong> To nurture faith and values through prayer, 
+      service, and fellowship.</p>
+      <p><strong>Vision:</strong> A vibrant community of students united in Christ, 
+      dedicated to leadership, charity, and lifelong discipleship.</p>
+    </section>
+
+    <!-- Announcements Section -->
+    <section id="announcements">
+      <h2>📢 Announcements</h2>
+      <ul id="announcementList"></ul>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events">
+      <h2>📅 Upcoming Events</h2>
+      <ul id="eventList"></ul>
+    </section>
+
+    <!-- Leaders Section -->
+    <section id="leaders">
+      <h2>👥 Meet Our Leaders</h2>
+      <div class="leader-grid">
+        <div class="leader-card">
+          <img src="images/Moderator.jpg" alt="Moderator">
+          <h3>John Paul</h3>
+          <p>Moderator</p>
+        </div>
+        <div class="leader-card">
+          <img src="images/V Moderator.jpg" alt="Vice Moderator">
+          <h3>Mary Grace</h3>
+          <p>Vice Moderator</p>
+        </div>
+        <div class="leader-card">
+          <img src="images/Secretary.jpg" alt="Secretary">
+          <h3>Peter James</h3>
+          <p>Secretary</p>
+        </div>
+        <div class="leader-card">
+          <img src="images/Treasuarer.jpg" alt="Treasurer">
+          <h3>Anna Teresa</h3>
+          <p>Treasurer</p>
+        </div>
+         <div class="leader-card">
+          <img src="images/O Sec.jpg" alt="Organizing Secretary">
+          <h3>Anna Teresa</h3>
+          <p>Organizing Secretary</p>
+        </div>
+         <div class="leader-card">
+          <img src="images/Choir Master.jpg" alt="Choir Master">
+          <h3>Anna Teresa</h3>
+          <p>Choir Master</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+      <h2>📸 Our Gallery</h2>
+      <div class="gallery-grid">
+        <img src="images/Event 1" alt="Event 1">
+        <img src="images/Event 2.jpg" alt="Event 2">
+        <img src="images/Event 3.jpg" alt="Event 3">
+        <img src="images/Event 4.jpg" alt="Event 4">
+        <img src="images/Event 5.jpg" alt="Event 5">
+        <img src="images/Event 6.jpg" alt="Event 6">
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>📩 Contact Us</h2>
+      <div class="contact-container">
+        <form class="contact-form">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" placeholder="Enter your name" required>
+
+          <label for="email">Your Email</label>
+          <input type="email" id="email" placeholder="Enter your email" required>
+
+          <label for="message">Your Message</label>
+          <textarea id="message" rows="5" placeholder="Write your message..." required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+
+        <div class="map-container">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.530658495826!2d36.8172233!3d-1.2863897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10d1b7c8f0bf%3A0x2a8e7c2d4a0b0b4c!2sCatholic%20Church!5e0!3m2!1sen!2s!4v1694878542584!5m2!1sen!2s" 
+            width="100%" 
+            height="300" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy">
+          </iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <img src="images/KTVC_CSA_logo-removebg-preview (1).png" alt="CSA Logo" class="footer-logo">
+    <p>© 2025 Catholic Students Association (KTVC). <br> All rights reserved - Design by Digilance Global</p>
+  </footer>
+  <!-- Popup Notification -->
+<div id="popup-notification"></div>
+
+
+  <script src="app.js"></script>
+</body>
+</html>
